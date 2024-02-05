@@ -15,7 +15,11 @@ body{
 }
 
 #whiteoutline {
-    font-size: large;
+    font-size:xx-large;
+}
+
+#whiteinline {
+  font-size: medium;
 }
 
 html, body {
