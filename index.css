@@ -128,3 +128,17 @@ html, body {
   .img-wrapper > img:hover {
     opacity: 0;
   }
+
+  /*funi image*/
+
+    #funiimage{
+      background-image:url('https://distantjob.com/wp-content/uploads/2022/06/RAD-Model-Diagram-1024x1024.jpg');
+      height:300px;
+      max-width:300px;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+      }
+      #funiimage:hover{
+      background-image:url('https://i.pinimg.com/originals/a3/39/d1/a339d1f7e5fa1b58f49ad83abbfd9aac.gif');
+      }     
