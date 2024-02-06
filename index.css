@@ -9,6 +9,18 @@ body{
     color: crimson;
 }
 
+#Backspace:link{
+  color:  #23a6d5;
+}
+
+#Waterfall1Text {
+  font-weight: bold;
+}
+
+#Backspace:hover {
+  color: #e73c7e;
+}
+
 #linkcolor:hover {
     background-color: lightgray;
     color: white;
@@ -27,6 +39,8 @@ html, body {
     height:100%;
   }
   
+  /*Backround*/
+
   body {
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
@@ -45,9 +59,8 @@ html, body {
       }
   }
 
-#Waterfall1Text {
-    font-weight: bold;
-}
+
+/*Youtube link*/
   
   #youtube {
     z-index: 2;
@@ -100,3 +113,18 @@ html, body {
     overflow: hidden;
   }
   
+
+  /*Agile picture*/
+
+  .img-wrapper {
+    display: inline-block;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkG73zJbH1wULOd1VkYOxONFl55l8y4tgWRHdHYj2EkQQNhoOnefyGYjyI_KyRDPTleg4&usqp=CAU);
+  }
+  
+  .img-wrapper > img {
+    vertical-align: top;
+  }
+  
+  .img-wrapper > img:hover {
+    opacity: 0;
+  }
